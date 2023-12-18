@@ -16,6 +16,12 @@
     "npm": "10.2.3"
   },
   "dependencies": {
-    "@prisma/client": "^5.7.0"
+    "@prisma/client": "^5.7.0",
+    "@vendia/serverless-express": "^3.4.1",
+    "aws-lambda": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.130",
+    "serverless-offline": "^13.3.2"
   }
 }
