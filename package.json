@@ -1,0 +1,21 @@
+{
+  "name": "monorepo-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "volta": {
+    "node": "18.19.0",
+    "npm": "10.2.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.7.0"
+  }
+}
